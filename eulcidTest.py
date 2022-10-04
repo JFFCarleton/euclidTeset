@@ -6,7 +6,7 @@
 #   r = remainder after mod operation a%b
 # returns: 
 #   if a%b = 0, IE b is the GCD: returns b
-#   else, Recursively calles itself, using r as the new b param: returns eulcid(b,r)
+#   else, Recursively calls itself, using r as the new b param: returns eulcid(b,r)
 
 def eulcid(a,b):
     r = a%b
